@@ -15,7 +15,7 @@ def favicon():
 
 @app.route('/about')
 def about():
-    headers = Flask.request.headers
+    headers = request.headers
     return "Request headers:\n" + str(headers)
 
 @app.route('/hello', methods=['POST'])
