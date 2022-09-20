@@ -13,6 +13,11 @@ def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'),
                                'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
+@app.route('/about')
+def about():
+    headers = Flask.request.headers
+    return "Request headers:\n" + str(headers)
+
 @app.route('/hello', methods=['POST'])
 def hello():
    name = request.form.get('name')
