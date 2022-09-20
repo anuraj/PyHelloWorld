@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/88f20b18-6cfc-444e-b496-35e707bf9f6b/AppServices/subscriptions/88f20b18-6cfc-444e-b496-35e707bf9f6b/resourceGroups/anuraj.p_rg_8202/providers/Microsoft.Web/sites/nice-sand-8fa03ee5d0b24a6eb4402b2aced12b99",
+    "appService.deploySubpath": "."
+}
